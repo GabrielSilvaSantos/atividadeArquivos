@@ -9,6 +9,7 @@ import interfaces.Leitura;
 public class Principal {
 
 	public static void main(String[] args) {
+
 		String path = new File("").getAbsolutePath() + "\\Arquivos";
 		String nome = "relatorio";
 		Leitura documento = new Arquivos();
